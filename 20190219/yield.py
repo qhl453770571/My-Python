@@ -13,6 +13,7 @@ print(a.__next__())
 print(a.__next__())
 print(a.__next__())
 
+
 # b=mygen()
 #
 # for item in b:

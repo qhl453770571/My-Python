@@ -11,5 +11,6 @@ if (player==0 and computer == 2) or (player==1 and computer==0) or (player==2 an
 
 elif player==computer:
     print('平局')
+
 else:
     print('you lose！！')
