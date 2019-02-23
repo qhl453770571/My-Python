@@ -2,9 +2,6 @@ import subprocess
 import threading
 
 
-
-
-
 def ping(host):
     rc=subprocess.call(
         'ping -c2 %s &>/dev/null' % host,shell=True
